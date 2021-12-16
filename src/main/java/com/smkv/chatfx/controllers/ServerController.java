@@ -88,10 +88,6 @@ public class ServerController implements Initializable {
         
     }
 
-    @FXML
-    private void emojiChooser() {
-
-    }
 
     private void addMsg(String msg, boolean senderIsServer) {
         Label lbl = new Label(msg);
